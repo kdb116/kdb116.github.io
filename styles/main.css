@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    width: 1000px 
+    width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     font-size: 100%;
     margin: 15px auto;
-    padding: 15px 1.sem;
+    padding: 15px 1.5em;
     border: 1px solid black;
-    border-radius 25px;
+    border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 }
 
@@ -46,12 +46,13 @@ main {
 
 main h3 {
     margin-top: 3em 2em 1.5em;
-    boarder: 5px double blue;
+    border: 5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
-    padding: 1em
+    padding: 1em;
     font-size: 105%;
 }
+
 main nav {
     margin: 1.5em 2em 1.5em;
     border: 5px dashed blue;
@@ -60,19 +61,20 @@ main nav {
     padding: 0.5em;
 
 }
+
 #list {
     line-height: 1.5em;
 }
-div.contact{
+
+div.contact {
     margin: 1.5em 2em 0em 2em;
     border: 5px dotted blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-}
+
 footer p.copyright {
     text-align: center;
     font-size: 80%
 }
-
