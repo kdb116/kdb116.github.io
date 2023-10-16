@@ -1,4 +1,4 @@
-nav.menu ul {
+nav_menu ul {
     list-style-type: upper-roman;
     padding: 1em 0;
     color: blue;
@@ -6,14 +6,19 @@ nav.menu ul {
     text-align: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    display: block;
 }
+
 nav_menu ul li {
     display: inline;
-    padding: 1 1.5em; 
+    padding: 1 1.5em;
 }
+
 nav_menu ul li a {
     font-weight: bold;
     color: black;
 }
-nav_menu ul li a.current { text-decoration: none;
- }
+
+nav_menu ul li a.current {
+    text-decoration: none;
+}
