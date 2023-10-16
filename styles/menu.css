@@ -12,7 +12,7 @@ nav_menu ul li {
 }
 nav_menu ul li a {
     font-weight: bold;
-    color: blue;
+    color: black;
 }
 nav_menu ul li a.current { text-decoration: none;
  }
