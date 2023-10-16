@@ -1,6 +1,7 @@
 nav_menu ul {
     list-style-type: upper-roman;
-    padding: 1em 0;
+    margin: 0;
+    padding: 0;
     color: blue;
 
     text-align: center;
