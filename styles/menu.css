@@ -1,6 +1,7 @@
 nav.menu ul {
     list-style-type: upper-roman;
     padding: 1em 0;
+    color: blue;
 
     text-align: center;
     border-top: 2px solid black;
