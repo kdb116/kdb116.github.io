@@ -1,40 +1,27 @@
-nav_menu ul {
+.nav_menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: black;
-
+    margin-left: 1em;
+    padding-top: 1em;
+  }
+  
+  .nav_menu ul li {
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(64, 119, 246);
+    width: 8em;
     text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-nav_menu ul li {
-    display: inline;
-    padding: 1 1.5em;
-}
-
-nav_menu ul li a {
+    font-size: 0.8em;
+  }
+  
+  .nav_menu ul li a {
     font-weight: bold;
-    color: black;
-}
-
-nav_menu ul li a.current {
-    text-decoration: none;
-}
-
-#nav_menu ul { list-style-type: none; }
-#nav_menu ul li { float: left; }
-#nav_menu ul li a {
-    text-align: center;
-    display: block;
-    width: 175px;
-    padding: 1em 0;      /* padding above and below a
-                            elements */
-    text-decoration: none;
-    background-color: blue;
     color: white;
-    font-weight: bold;
-    border-right: 2px solid white; }
-#nav_menu ul li a.lastitem { border-right: none; }	
-#nav_menu ul li a.current { color: yellow; }
+    text-decoration: none;
+  }
+  
+  .nav_menu ul li a.current {
+    text-decoration: none;
+  }
