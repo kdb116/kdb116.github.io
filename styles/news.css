@@ -82,13 +82,13 @@ aside {
 	background-color: lightblue;
 }
 aside ol {
-	list-style: upper-roman;
+	list-style-type: upper-roman;
 }
 aside ul {
-	list-style: square;
+	list-style-type: square;
 }
-aside p {
-	list-style: none;
+aside.return {
+	list-style-type: none;
 }
 
 footer {
