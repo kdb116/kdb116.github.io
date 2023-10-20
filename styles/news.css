@@ -11,6 +11,10 @@ body {
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
 }
+nav{
+	padding-bottom: 1em;
+	border-bottom: 2px solid darkblue;
+}
 .nav_menu ul {
     list-style-type: none;
     margin: 0;
