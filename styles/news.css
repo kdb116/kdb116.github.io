@@ -107,7 +107,8 @@ article p::first-letter {
 }
 
 aside {
-	width: 20% fixed;
+	width: 20%;
+	position: fixed;
 	float: right;
 	padding: 0.1em 1em 1em;
 	background-color: blue;
