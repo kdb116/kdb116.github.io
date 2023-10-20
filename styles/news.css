@@ -1,66 +1,102 @@
 html {
 	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
-
 body {
-    width: 95%;
-    margin: 15px auto;
-  }
-  
-  --Pulled this from notes so may not be correct??
-  nav_menu ul {
-    list-style-type: none
-    padding: 1em 0
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 90%;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 1.5em;
+	border: 1px solid blue;
+	border-radius: 25px;
+	box-shadow: 5px 5px 0 0;
+}
 
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2pm solid black;
-  }
+a:focus,
+a:hover {
+	font-style: italic;
+	color: orangered;
+	border: 3px blue;
+	border-style: dotted solid;
+}
 
-  nav_menu ul li {
-    display: inline;
-    padding: 0 1.5em;
-  }
-  nav_menu ul il a {
-    font-weight: bold;
-    color: blue;
-  }
-  nav_menu ul li a.current { text-decoration: non; }
+header {
+	padding-bottom: 2em;
+	border-bottom: 2px solid #800000;
+}
 
-  article {
-    width: 75%;
-  }
-  
-  aside {
-    width: 20%;
-    position: fixed;
-  }
-  
-  aside ol {
-    list-style-type: upper-roman;
-  }
-  
-  aside ul {
-    list-style-type: square;
-  }
-  
-  /* Lines as shown in the screenshot */
-  /* You'll need to replace these with actual styles that match your design */
-  .line-below-menu {
-    border-bottom: 1px solid #000;
-  }
-  
-  .line-between-columns {
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
-  }
-  
-  .line-above-footer {
-    border-top: 1px solid #000;
-  }
-  
-  .line-around-body {
-    border: 1px solid #000;
-    padding: 10px; 
-  }
+header img {
+	float: left;
+	margin-left: 2em;
+}
+
+header h1 {
+	font-size: 175%;
+	color: maroon;
+	text-indent: 30px;
+}
+
+header h2 {
+	font-size: 130%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+.shadow {
+	text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+article {
+	width: 75%;
+	float: left;
+	column-count: 2;
+	column-rule: 2px dotted blue;
+	column-gap: 2em;
+	margin-left: 2em;
+}
+
+article h3 {
+	column-span: all;
+}
+
+article img {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+article p::first-letter {
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	color: darkblue;
+}
+
+aside {
+	width: 20% fixed;
+	float: right;
+	padding: 0.1em 1em 1em;
+	background-color: #ffebc6;
+}
+
+footer {
+	clear: both;
+	border-top: 2px solid darkblue;
+}
+
+footer p.copyright {
+	text-align: center;
+	font-size: 80%;
+}
+
+p.fixed {
+	width: auto;
+	position: fixed;
+	bottom: 35%;
+	right: 0;
+	border: 3px solid darkblue;
+	background-color: lightskyblue;
+	padding: 1.5em;
+}
   
