@@ -88,9 +88,10 @@ article h3 {
 }
 
 article img {
+	max-width: 100%;
+	display: block;
 	float: left;
-	margin-right: 1em;
-	margin-bottom: 1em;
+	padding: 0 1em 1em 0;
 }
 
 article p::first-letter {
