@@ -84,7 +84,7 @@ footer {
 	border-top: 2px solid darkblue;
 }
 
-footer p.copyright {
+#copyright {
 	text-align: center;
 	font-size: 80%;
 }
