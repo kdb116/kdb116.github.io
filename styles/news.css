@@ -73,9 +73,11 @@ article h2 {
 }
 
 aside {
+	clear: both;
 	width: 20%;
 	position: fixed;
-	float: right;
+	top: 50px;
+	right: 20px;
 	padding: 0.1em 1em 1em;
 	background-color: darkblue;
 }
