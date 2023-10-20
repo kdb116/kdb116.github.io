@@ -67,6 +67,7 @@ article p::first-letter {
 	font-style: italic;
 	color: darkblue;
 }
+article h1,
 article h2 {
 	color: blue;
 }
