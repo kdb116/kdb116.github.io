@@ -26,10 +26,10 @@
     text-decoration: none;
   }
 
-aside ul {
+aside ul li {
 	list-style-type: upper-roman;
 }
-aside ul {
+aside ul li {
 	list-style-type: square;
 }
 aside.return {
