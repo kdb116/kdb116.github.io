@@ -12,6 +12,33 @@ body {
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
 }
+.nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    margin-left: 1em;
+    padding-top: 1em;
+  }
+  
+  .nav_menu ul li {
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(64, 119, 246);
+    width: 8em;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  .nav_menu ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav_menu ul li a.current {
+    text-decoration: none;
+  }
 
 a:focus,
 a:hover {
