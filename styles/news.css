@@ -81,9 +81,10 @@ aside {
 	padding: 0.1em 1em 1em;
 	background-color: lightblue;
 }
-aside li {
+aside ol li {
 	list-style: upper-roman;
 }
+
 
 footer {
 	clear: both;
