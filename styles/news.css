@@ -84,7 +84,9 @@ aside {
 aside ol li {
 	list-style: upper-roman;
 }
-
+aside ul li {
+	list-style: square;
+}
 
 footer {
 	clear: both;
