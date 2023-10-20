@@ -25,3 +25,13 @@
   .nav_menu ul li a.current {
     text-decoration: none;
   }
+
+aside ul {
+	list-style-type: upper-roman;
+}
+aside ul {
+	list-style-type: square;
+}
+aside.return {
+	list-style-type: none;
+}
