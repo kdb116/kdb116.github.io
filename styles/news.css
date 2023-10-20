@@ -1,0 +1,63 @@
+/* General styles */
+body {
+    width: 95%;
+    margin: 15px auto;
+  }
+  
+  --Pulled this from notes so may not be correct??
+  nav_menu ul {
+    list-style-type: none
+    padding: 1em 0
+
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2pm solid black;
+  }
+
+  nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+  }
+  nav_menu ul il a {
+    font-weight: bold;
+    color: blue;
+  }
+  nav_menu ul li a.current { text-decoration: non; }
+
+  article {
+    width: 75%;
+  }
+  
+  aside {
+    width: 20%;
+    position: fixed;
+  }
+  
+  aside ol {
+    list-style-type: upper-roman;
+  }
+  
+  aside ul {
+    list-style-type: square;
+  }
+  
+  /* Lines as shown in the screenshot */
+  /* You'll need to replace these with actual styles that match your design */
+  .line-below-menu {
+    border-bottom: 1px solid #000;
+  }
+  
+  .line-between-columns {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+  }
+  
+  .line-above-footer {
+    border-top: 1px solid #000;
+  }
+  
+  .line-around-body {
+    border: 1px solid #000;
+    padding: 10px; 
+  }
+  
