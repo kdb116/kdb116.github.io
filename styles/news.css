@@ -66,12 +66,12 @@ header h1 {
 
 header h2 {
 	font-size: 130%;
-	color: #800000;
+	color: white;
 	text-indent: 30px;
 }
 
 .shadow {
-	text-shadow: 2px 2px 2px rgb(128, 0, 0);
+	text-shadow: 2px 2px 2px white(128, 0, 0);
 }
 
 article {
