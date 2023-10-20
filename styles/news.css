@@ -52,10 +52,6 @@ article {
 	margin-left: 2em;
 }
 
-article h3 {
-	column-span: all;
-}
-
 article img {
 	max-width: 100%;
 	display: block;
