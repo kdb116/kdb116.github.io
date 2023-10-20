@@ -81,11 +81,14 @@ aside {
 	padding: 0.1em 1em 1em;
 	background-color: lightblue;
 }
-aside ol li {
+aside ol {
 	list-style: upper-roman;
 }
-aside ul li {
+aside ul {
 	list-style: square;
+}
+aside p {
+	list-style: none;
 }
 
 footer {
