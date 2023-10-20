@@ -43,40 +43,6 @@ nav{
     text-decoration: none;
   }
 
-a:focus,
-a:hover {
-	font-style: italic;
-	color: orangered;
-	border: 3px blue;
-	border-style: dotted solid;
-}
-
-header {
-	padding-bottom: 2em;
-	border-bottom: 2px solid darkblue;
-}
-
-header img {
-	float: left;
-	margin-left: 2em;
-}
-
-header h1 {
-	font-size: 100%;
-	color: maroon;
-	text-indent: 30px;
-}
-
-header h2 {
-	font-size: 100%;
-	color: white;
-	text-indent: 30px;
-}
-
-.shadow {
-	text-shadow: 2px 2px 2px white(128, 0, 0);
-}
-
 article {
 	width: 75%;
 	float: left;
