@@ -88,6 +88,10 @@ body {
 }
 /*----end of menu*/
 
+a { text-decoration: none;}
+a:hover, a.current { text-decoration: underline; }
+
+.menu { text-decoration: underline; }
 
 
 
