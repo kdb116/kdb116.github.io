@@ -88,7 +88,7 @@ body {
 }
 /*----end of menu*/
 
-a { text-decoration: none;}
+a { text-decoration: none; color: white; }
 a:hover, a.current { text-decoration: underline; }
 
 .menu { text-decoration: underline; }
