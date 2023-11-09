@@ -91,7 +91,7 @@ body {
 a { text-decoration: none; color: white; }
 a:hover, a.current { text-decoration: underline; }
 
-.menu { text-decoration: underline; }
+.menu { text-decoration: underline; color: white;}
 
 article {
   padding: 0 1em;
