@@ -123,6 +123,7 @@ footer p.copyright {
 }
 
 @media only screen and (max-width: 700px)
+{
 /* It is telling me to copy this code bc it doesnt look right?*/
 .menu-button-container {
   display: flex;
@@ -161,4 +162,5 @@ footer p.copyright {
 }
 .menu > li:not(:last-child) {
   border-bottom: 1px solid #444;
+}
 }
