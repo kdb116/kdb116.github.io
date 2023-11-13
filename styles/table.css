@@ -37,11 +37,11 @@ html, body {
    /*---------------------------------------------------------*/
     table.third {
         border-collapse: separate;
-        border: 2px solid green;
     }
     
     table.third th {
         border-top: 2px solid orangered;
+        background-color: sold green;
 
     }
     table.third td {
@@ -67,10 +67,6 @@ html, body {
     }
     
     
-
-
-
-
     /* Media Query for smaller screens */
         @media only screen and (max-width: 425px) {
             th, td {
