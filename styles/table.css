@@ -45,7 +45,7 @@ html, body {
     table.third td {
         border: 2px solid orange; 
         padding: 0.5em;
-        vertical-align: top; 1,2,3;
+        vertical-align: top;
     }
 
     table.third thead tr:first-child {
