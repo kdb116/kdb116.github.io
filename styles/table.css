@@ -40,9 +40,12 @@ html, body {
         border: 2px solid green;
     }
     
-    table.third th,
+    table.third th {
+        border-top: 2px solid orangered;
+
+    }
     table.third td {
-        border: 2px solid orange;
+        border-top: 2px solid orangered;
         padding: 0.5em;
         vertical-align: top; /* Aligns Category numbers to the top */
     }
