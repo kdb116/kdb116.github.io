@@ -46,6 +46,7 @@ html, body {
     }
     table.third td {
         border-top: 2px solid orangered;
+        background-color: green;
         padding: 0.5em;
         vertical-align: top; /* Aligns Category numbers to the top */
     }
