@@ -88,10 +88,13 @@ body {
 }
 /*----end of menu*/
 
-a { text-decoration: none; color: white; }
-a:hover, a.current { text-decoration: underline; }
+section a { text-decoration: none; 
+    color: white; 
+  }
 
-.menu { text-decoration: underline; color: white;}
+.menu a:hover, a.current { 
+    text-decoration: underline; 
+  }
 
 article {
   padding: 0 1em;
@@ -113,18 +116,13 @@ article img {
 }
 
 footer {
-	clear: both;
-	border-top: 2px solid #f46b45;
-}
-
-footer p.copyright {
-	text-align: center;
-	font-size: .8em;
+  border-top: 2px solid #f46b45;
+  text-align: center;
+  font-size: .8em;
 }
 
 @media only screen and (max-width: 700px)
 {
-/* It is telling me to copy this code bc it doesnt look right?*/
 .menu-button-container {
   display: flex;
 }
@@ -171,12 +169,8 @@ article p {
   font-size: 8em;
 }
 footer {
-	clear: both;
-	border-top: 1px solid #f46b45;
-}
-
-footer p.copyright {
-	text-align: center;
-	font-size: .6em;
+  border-top: 1px solid #f46b45;
+  text-align: center;
+  font-size: 0.6em
 }
 }
