@@ -40,7 +40,7 @@ table.second thead tr:first-child {
 /*---------------------------------------------------------*/
 table.third {
   border-collapse: collapse;
-  width: 60%;
+  width: 50%;
 }
 
 table.third th,
