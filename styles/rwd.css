@@ -88,7 +88,8 @@ body {
 }
 /*----end of menu*/
 
-section a { text-decoration: none; 
+section a { 
+    text-decoration: none; 
     color: white; 
   }
 
